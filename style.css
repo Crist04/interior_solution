@@ -28,7 +28,7 @@ input:-webkit-autofill:active {
   padding: 25px 0px;
   height: 50px;
   background-color: transparent;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -199,4 +199,103 @@ input:-webkit-autofill:active {
 form #btn {
   font-weight: 700;
   font-size: 18px;
+}
+
+.what-we-offer {
+  width: 100%;
+  background-color: black;
+  height: 100vh;
+}
+
+.what-we-offer h3 {
+  padding: 20px;
+  font-family: "Eudoxus Sans";
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+.what-we-offer h3:after {
+  margin: 15px auto 0 auto;
+  content: "";
+  display: block;
+  position: relative;
+  width: 140px;
+  background-color: #9f997a;
+  height: 2px;
+}
+
+.what-we-offer .parent {
+  height: calc(100% - 110px);
+  display: flex;
+  gap: 80px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.what-we-offer .row {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.what-we-offer .row img {
+  width: 280px;
+  height: 280px;
+}
+
+.what-we-offer .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.what-we-offer .text p {
+  width: 400px;
+  font-family: "Eudoxus Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+.what-we-offer .text button {
+  width: 202px;
+  height: 45px;
+  padding: 10px 20px;
+  text-align: start;
+  background: #9f997a;
+  border-radius: 6px;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.what-we-offer .parent h4 {
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+.what-we-offer .parent h4:after {
+  content: " ";
+  margin-top: 5px;
+  margin-bottom: 20px;
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 2px;
+  background-color: #9f997a;
 }
