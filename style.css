@@ -499,24 +499,87 @@ form #btn {
   margin-right: 20px;
 }
 
-img {
-  max-width: 100%;
+.carousel-item {
+  object-fit: contain;
 }
 
-.splide__optional-button-container {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  text-align: center;
+.showcase .carousel-control-next,
+.carousel-control-prev {
+  width: auto;
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
-.splide__slide {
-  min-height: 200px;
-  text-align: center;
+.carousel-control-next {
+  right: -20px;
+}
+
+.carousel-control-prev {
+  left: -20px;
+}
+
+.showcase .showcase-text h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: 0.12em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.showcase .showcase-text h3:after {
+  content: " ";
+  margin-top: 15px;
+  display: block;
+  position: relative;
+  width: 200px;
+  height: 2px;
+  background-color: #9f997a;
+}
+
+.showcase .showcase-text button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.12em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.showcase .carousel-control-btn > a {
+  display: flex;
+  background: #9f997a;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Our Services Section */
 .our-services {
   width: 100%;
+}
+
+.our-services-items-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 768px) {
+  .our-services-items-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .our-services-items-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 .our-services h3 {
@@ -721,7 +784,6 @@ img {
 
 .faq-section hr {
   color: #313133;
-  margin: px;
   border: 0.7px solid rgba(159, 153, 122, 0.4);
   height: 0px;
 }
