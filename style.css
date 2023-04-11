@@ -499,6 +499,149 @@ form #btn {
   margin-right: 20px;
 }
 
+img {
+  max-width: 100%;
+}
+
+.splide__optional-button-container {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.splide__slide {
+  min-height: 200px;
+  text-align: center;
+}
+
+/* Our Services Section */
+.our-services {
+  width: 100%;
+}
+
+.our-services h3 {
+  padding: 20px;
+  font-family: "Eudoxus Sans";
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+.our-services h3:after {
+  margin: 15px auto 0 auto;
+  content: "";
+  display: block;
+  position: relative;
+  width: 140px;
+  background-color: #9f997a;
+  height: 2px;
+}
+
+.our-services .sub-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.12em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #ffffff;
+}
+
+.our-services-item .img-container {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #9f997a;
+  border-radius: 6px;
+}
+
+.our-services-item .image-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.12em;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Kitchen and Wardrobe */
+
+.build-kitchen-wardrobe {
+  width: 100%;
+}
+
+.build-kitchen-wardrobe h3 {
+  padding: 20px;
+  font-family: "Eudoxus Sans";
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+.build-kitchen-wardrobe h3:after {
+  margin: 15px auto 0 auto;
+  content: "";
+  display: block;
+  position: relative;
+  width: 140px;
+  background-color: #9f997a;
+  height: 2px;
+}
+
+.kw-container {
+  gap: 20px;
+}
+
+.kw-item img {
+  width: 500px;
+  max-width: 680px;
+  aspect-ratio: 1 1;
+  object-fit: contain;
+}
+
+.btn {
+  width: max-content;
+  background: #9f997a;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.12em;
+  text-transform: capitalize;
+  color: #ffffff;
+  -webkit-box-shadow: 9px 9px 0px -1px rgba(114, 109, 84, 1);
+  -moz-box-shadow: 9px 9px 0px -1px rgba(114, 109, 84, 1);
+  box-shadow: 5px 5px 0px -1px rgba(114, 109, 84, 1);
+}
+
+.all-we-know-content {
+  max-width: 700px;
+}
+
+.all-we-know-content h4 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: 0.12em;
+  color: #ffffff;
+  text-align: start;
+}
+
+.all-we-know-content p {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 0.12em;
+  color: #b7b7b7;
+}
+
+/* FAQ Section */
+
 .faq-section {
   background-color: black;
 }
