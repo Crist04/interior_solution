@@ -5,6 +5,10 @@
   font-family: "Eudoxus Sans";
 }
 
+.opacity-50 {
+  opacity: 0.4;
+}
+
 dl,
 ol,
 ul {
@@ -679,12 +683,16 @@ form #btn {
   border-radius: 6px;
 }
 
-.our-services-item:ac .our-services-item .image-title {
+.our-services-item .our-services-item .image-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 25px;
   letter-spacing: 0.12em;
   text-align: center;
+  color: #ffffff;
+}
+
+.image-title {
   color: #ffffff;
 }
 
